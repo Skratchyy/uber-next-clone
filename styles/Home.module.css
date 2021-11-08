@@ -1,5 +1,19 @@
 .container {
   padding: 0 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.map {
+  background-color: red;
+  flex: 1;
+}
+
+.start{
+  background-color: green;
+  flex: 1;
 }
 
 .main {
@@ -72,6 +86,8 @@
   flex-wrap: wrap;
   max-width: 800px;
 }
+
+
 
 .card {
   margin: 1rem;
